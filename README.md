@@ -16,7 +16,6 @@ TrafficMonitor 插件：在任务栏/悬浮窗显示 Windows **已提交内存�
 
 - **已提交内存百分比**：`提交: 45.2%`（已提交 / 提交限制，与任务管理器"提交"口径一致）
 - **已提交内存量**：`提交量: 37.5/43.4 GB`（已提交 / 提交限额，单位后置，一位小数）
-- 支持任务栏资源占用图（百分比曲线）
 - 每秒刷新
 - 仅依赖 `GetPerformanceInfo`（kernel32），无 MFC 依赖，DLL 约 150 KB
 
@@ -57,7 +56,6 @@ TrafficMonitor 插件：在工作列/懸浮窗顯示 Windows **已提交記憶�
 
 - **已提交記憶體百分比**：`提交: 45.2%`（已提交 / 提交限制，與工作管理員「提交」口徑一致）
 - **已提交記憶體量**：`提交量: 37.5/43.4 GB`（已提交 / 提交限制，單位後置，一位小數）
-- 支援工作列資源佔用圖（百分比曲線）
 - 每秒重新整理
 - 僅依賴 `GetPerformanceInfo`（kernel32），無 MFC 依賴，DLL 約 150 KB
 
@@ -98,7 +96,6 @@ This addresses a long-standing request upstream (GitHub issue [#483](https://git
 
 - **Committed memory percentage**: `提交: 45.2%` (committed / commit limit, same basis as Task Manager's "Committed")
 - **Committed memory amount**: `提交量: 37.5/43.4 GB` (committed / commit limit, unit at the end, one decimal)
-- Taskbar resource usage graph (percentage curve)
 - Refreshed every second
 - Uses only `GetPerformanceInfo` (kernel32), no MFC dependency, DLL ~150 KB
 
