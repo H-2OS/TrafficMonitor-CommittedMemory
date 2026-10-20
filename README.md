@@ -33,7 +33,7 @@ TrafficMonitor 插件：在任务栏/悬浮窗显示 Windows **已提交内存�
 
 ## 安装
 
-1. 从上表选一版，取得对应 dll
+1. 从上表选一版，在本页右侧 **Releases（发行版）** 处下载对应 dll
 2. 放入 TrafficMonitor 程序目录下的 `plugins\` 文件夹（不存在则创建）
 3. 重启 TrafficMonitor
 4. 右键任务栏窗口或悬浮窗 → 选项 → 勾选「已提交内存百分比」/「已提交内存量」
@@ -98,7 +98,7 @@ TrafficMonitor 插件：在工作列/懸浮窗顯示 Windows **已提交記憶�
 
 ## 安裝
 
-1. 從上表選一版，取得對應 dll
+1. 從上表選一版，在本頁右側 **Releases（發行版）** 處下載對應 dll
 2. 放入 TrafficMonitor 程式目錄下的 `plugins\` 資料夾（不存在則建立）
 3. 重新啟動 TrafficMonitor
 4. 在工作列視窗或懸浮窗按右鍵 → 選項 → 勾選「已提交記憶體百分比」/「已提交記憶體量」
@@ -163,7 +163,7 @@ Sources under `src/` as `PluginCommitedA/B/C.cpp`.
 
 ## Install
 
-1. Pick a version above and obtain the matching DLL
+1. Pick a version above and download the matching DLL from **Releases** (right sidebar of this page)
 2. Put it into the `plugins\` folder under the TrafficMonitor program directory (create it if missing)
 3. Restart TrafficMonitor
 4. Right-click the taskbar window or floating window → Options → check 「已提交内存百分比」/「已提交内存量」
