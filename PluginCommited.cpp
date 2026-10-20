@@ -78,7 +78,7 @@ public:
 
     const wchar_t* GetItemLableText() const override
     {
-        return L"提交量:";
+        return L"已提交:";
     }
 
     const wchar_t* GetItemValueText() const override
