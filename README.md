@@ -21,10 +21,10 @@ TrafficMonitor 插件：在任务栏/悬浮窗显示 Windows **已提交内存�
 
 ## 版本说明（A / B / C）
 
-三个版本 dll 均在 `Release/` 下，按需选**其中一个**放入 `plugins\` 使用：
+三个版本 dll 任选**其一**，放入 `plugins\` 使用：
 
 | 版本 | 文件 |  显示效果示例 |
-|------|------|----------|------------------|
+|------|------|----------|
 | **A** | `PluginCommitedA.dll` | `提交: 45.2%  已提交: 37.5/43.4 GB` |
 | **B** | `PluginCommitedB.dll` | `提交: 45%  已提交: 37.5/43.4 GB` |
 | **C** | `PluginCommitedC.dll` | `内存: 45%  已提交: 37.5/43.4 GB` |
@@ -33,7 +33,7 @@ TrafficMonitor 插件：在任务栏/悬浮窗显示 Windows **已提交内存�
 
 ## 安装
 
-1. 从上表选一版，下载 `Release/` 下对应 dll
+1. 从上表选一版，取得对应 dll
 2. 放入 TrafficMonitor 程序目录下的 `plugins\` 文件夹（不存在则创建）
 3. 重启 TrafficMonitor
 4. 右键任务栏窗口或悬浮窗 → 选项 → 勾选「已提交内存百分比」/「已提交内存量」
@@ -59,10 +59,6 @@ TrafficMonitor 插件：在任务栏/悬浮窗显示 Windows **已提交内存�
 ## 文件
 
 ```
-Release/
-  PluginCommitedA.dll    A 版（百分比一位小数，标签"提交:"）
-  PluginCommitedB.dll    B 版（百分比整数，标签"提交:"）
-  PluginCommitedC.dll    C 版（百分比整数，标签"内存:"）
 src/
   PluginCommitedA.cpp    A 版源码
   PluginCommitedB.cpp    B 版源码
@@ -90,10 +86,10 @@ TrafficMonitor 插件：在工作列/懸浮窗顯示 Windows **已提交記憶�
 
 ## 版本說明（A / B / C）
 
-三個版本 dll 均在 `Release/` 下，按需選**其中一個**放入 `plugins\` 使用：
+三個版本 dll 任選**其一**，放入 `plugins\` 使用：
 
 | 版本 | 檔案 | 顯示效果範例 |
-|------|------|----------|------------------|
+|------|------|----------|
 | **A** | `PluginCommitedA.dll` | `提交: 45.2%  已提交: 37.5/43.4 GB` |
 | **B** | `PluginCommitedB.dll` | `提交: 45%  已提交: 37.5/43.4 GB` |
 | **C** | `PluginCommitedC.dll` | `内存: 45%  已提交: 37.5/43.4 GB` |
@@ -102,7 +98,7 @@ TrafficMonitor 插件：在工作列/懸浮窗顯示 Windows **已提交記憶�
 
 ## 安裝
 
-1. 從上表選一版，下載 `Release/` 下對應 dll
+1. 從上表選一版，取得對應 dll
 2. 放入 TrafficMonitor 程式目錄下的 `plugins\` 資料夾（不存在則建立）
 3. 重新啟動 TrafficMonitor
 4. 在工作列視窗或懸浮窗按右鍵 → 選項 → 勾選「已提交記憶體百分比」/「已提交記憶體量」
@@ -128,10 +124,6 @@ TrafficMonitor 插件：在工作列/懸浮窗顯示 Windows **已提交記憶�
 ## 檔案
 
 ```
-Release/
-  PluginCommitedA.dll    A 版（百分比一位小數，標籤「提交:」）
-  PluginCommitedB.dll    B 版（百分比整數，標籤「提交:」）
-  PluginCommitedC.dll    C 版（百分比整數，標籤「内存:」）
 src/
   PluginCommitedA.cpp    A 版原始碼
   PluginCommitedB.cpp    B 版原始碼
@@ -159,10 +151,10 @@ This addresses a long-standing request upstream (GitHub issue [#483](https://git
 
 ## Versions (A / B / C)
 
-All three DLLs live under `Release/`; pick **one** and put it into `plugins\`:
+Pick **one** of the three DLLs and put it into `plugins\`:
 
 | Version | File | Display example |
-|---------|------|----------|------------------|
+|---------|------|----------|
 | **A** | `PluginCommitedA.dll` | `提交: 45.2%  已提交: 37.5/43.4 GB` |
 | **B** | `PluginCommitedB.dll` | `提交: 45%  已提交: 37.5/43.4 GB` |
 | **C** | `PluginCommitedC.dll` | `内存: 45%  已提交: 37.5/43.4 GB` |
@@ -171,7 +163,7 @@ Sources under `src/` as `PluginCommitedA/B/C.cpp`.
 
 ## Install
 
-1. Pick a version above and download the matching DLL from `Release/`
+1. Pick a version above and obtain the matching DLL
 2. Put it into the `plugins\` folder under the TrafficMonitor program directory (create it if missing)
 3. Restart TrafficMonitor
 4. Right-click the taskbar window or floating window → Options → check 「已提交内存百分比」/「已提交内存量」
@@ -197,10 +189,6 @@ To switch to another version:
 ## Files
 
 ```
-Release/
-  PluginCommitedA.dll    version A (one-decimal percent, label "提交:")
-  PluginCommitedB.dll    version B (integer percent, label "提交:")
-  PluginCommitedC.dll    version C (integer percent, label "内存:")
 src/
   PluginCommitedA.cpp    version A source
   PluginCommitedB.cpp    version B source
